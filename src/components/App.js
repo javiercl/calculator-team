@@ -19,8 +19,7 @@ function App() {
     <div class="fondo">
       
       <p>Aqui van los comes de la calculadora</p>
-      <p>Test</p>
-      
+      <p> Otro </p>
       {/* 
 
       <Display values={values}/>
