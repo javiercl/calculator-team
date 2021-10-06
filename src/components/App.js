@@ -17,7 +17,9 @@ function App() {
   
   return (
     <div class="fondo">
-      <p>Aqui van los componentes de la calculadora</p>
+      
+      <p>Aqui van los comes de la calculadora</p>
+      <p>Test</p>
       
 
       <ButtEqu values={values} setValues={setValues}/>

@@ -28,11 +28,12 @@ const Buttequ = ({values, setValues}) => {
         });
     }
 
+
     return (
         <div>
              <button onClick={(e)=>{
                 e.preventDefault();
-                operacion();                
+                operacion();
             }
             }>=</button>
         </div>
@@ -40,3 +41,4 @@ const Buttequ = ({values, setValues}) => {
 }
 
 export default Buttequ;
+
