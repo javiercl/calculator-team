@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import Display from './components/Display';
 
-// import Display from './components/Display';
 // import ButtNum from './components/ButtNum';
 // import ButtOpe from './components/ButtOpe';
 // import ButtEqu from './components/ButtEqu';
@@ -19,14 +19,14 @@ function App() {
     <div class="fondo">
       <p>Aqui van los componentes de la calculadora</p>
       
-      {/* 
+      {
 
       <Display values={values}/>
-      <ButtNum values={values} setValues={setValues}/>
-      <ButtEqu values={values} setValues={setValues}/>
-      <ButtOpe values={values} setValues={setValues}/> 
+      //<ButtNum values={values} setValues={setValues}/>
+      //<ButtEqu values={values} setValues={setValues}/>
+      //<ButtOpe values={values} setValues={setValues}/> 
       
-      */}
+      }
 
     </div>
   );
