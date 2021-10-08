@@ -15,7 +15,7 @@ const Buttequ = ({values, setValues}) => {
     }
     return (
         <div>
-             <button onClick={(e)=>{
+             <button className="btnAzul" onClick={(e)=>{
                 e.preventDefault();
                 let result=0;
                 switch(values.operador){
@@ -42,7 +42,9 @@ const Buttequ = ({values, setValues}) => {
                 });
             }
             }>=</button>
-            <button key ="btnequ" onClick={handleClicEqu}>CE</button>
+            
+            <button className="btnVerde" key ="btnequ" onClick={handleClicEqu}>CE</button>
+            
         </div>
     );
 }

@@ -28,7 +28,10 @@ code {
   background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
   background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
-  
+  display: grid;
+  grid-template-rows: 15% auto;
+  grid-template-columns: 75% 15%;
+  grid-template-areas: none;
   border-radius: .5 em;
   box-shadow: 0px 3px 5px 10px rgba(183, 182, 189, 0.726);
   height: 60vh;
@@ -61,7 +64,6 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(254,254,253,1) 0%,
 background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%);
 background: radial-gradient(ellipse at center,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=1 );
-
   width: 60px;
   cursor: pointer;
 }.btnNum:hover{
