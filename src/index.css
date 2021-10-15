@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+
+.marca{
+  color: white;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.calCuerpo{
+  border: 5px solid rgb(104, 102, 102);
+  width: 500px;
+  margin: auto;
+  
+  background: rgb(181,189,200);
+  background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+  background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
+  
+  border-radius: .5 em;
+  box-shadow: 0px 3px 5px 10px rgba(183, 182, 189, 0.726);
+  height: 60vh;
+  text-align: center;
+  color: white;
+}
+
+
+.display {
+  background: rgb(205,235,142);
+  background: -moz-linear-gradient(top,  rgba(205,235,142,1) 0%, rgba(165,201,86,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%);
+  background: linear-gradient(to bottom,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+  
+border: 4px solid rgb(207, 143, 83);
+border-radius: .25em;
+text-align: right;
+font-size: 3em;
+color: rgb(44, 44, 44);
+}
+
+.btnNum{
+  padding: 3px 3px;
+  font-size: 1.5em;
+  border: 2px outset rgb(125, 138, 71);
+  border-radius: .35em;
+  background: rgb(254,254,253);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(254,254,253,1) 0%, rgba(220,227,196,1) 42%, rgba(174,191,118,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=1 );
+
+  width: 60px;
+  cursor: pointer;
+}.btnNum:hover{
+  background: rgb(228,239,192);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(228,239,192,1) 0%, rgba(171,189,115,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(228,239,192,1) 0%,rgba(171,189,115,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(228,239,192,1) 0%,rgba(171,189,115,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=1 );
+
+}
+
+
+
+.btnAzul{
+  padding: 3px 3px;
+  font-size: 1.5em;
+  border: 3px outset blue;
+  border-radius: .25em;
+  background: rgb(167,199,220);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=1 );
+
+  width: 50%;
+  height: 10vh;
+  cursor: pointer;
+}.btnAzul:hover{
+  background: rgb(206,220,231);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 );
+
+}
+
+.btnVerde{
+  padding: 3px 3px;
+  font-size: 1.5em;
+  border: 2px outset rgb(233, 96, 17);
+  border-radius: .35em;
+  background: rgb(255,168,76);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 );
+
+  width: 60px;
+  cursor: pointer;
+}.btnVerde:hover{
+  background: rgb(255,103,15);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,103,15,1) 0%, rgba(255,103,15,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,103,15,1) 0%,rgba(255,103,15,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(255,103,15,1) 0%,rgba(255,103,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff670f', endColorstr='#ff670f',GradientType=1 );
+
+}
+
+.btnRojo{
+  padding: 3px 3px;
+  font-size: 1.5em;
+  border: 3xp outset rgb(196, 16, 16);
+  border-radius: .25em;
+  background: #ff3019;
+background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+  width: 60px;
+  cursor: pointer;
+}.btnRojo:hover{
+  background: #ff3019;
+background: -moz-radial-gradient(center, ellipse cover,  #ff3019 0%, #cf0404 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  #ff3019 0%,#cf0404 100%);
+background: radial-gradient(ellipse at center,  #ff3019 0%,#cf0404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=1 );
+
+}
+
+.btnRojo img{padding-top: .25em;
+}
+  
+
+.fila{
+  height: 15px;
+  padding: 3px;
+  
+}
+tr td{padding: 0px;}
