@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // import Display from './components/Display';
 // import ButtNum from './components/ButtNum';
 // import ButtOpe from './components/ButtOpe';
- import ButtEqu from './components/ButtEqu';
+ import ButtEqu from './ButtEqu';
 
 
 function App() {
