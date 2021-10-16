@@ -1,9 +1,7 @@
-
-//lo mismo pero en otra rama 
 import React from 'react';
 
 const Buttequ = ({values, setValues}) => {
-    const handleClicEqu = (e)=>{
+    const handleClicCle = (e)=>{
         e.preventDefault();
         setValues({
             'result':'0',
@@ -13,38 +11,33 @@ const Buttequ = ({values, setValues}) => {
             'number' : 0  
         });
     }
-    return (
-        <div>
-             <button onClick={(e)=>{
-                e.preventDefault();
-                let result=0;
-                switch(values.operador){
-                    case '+':
-                        result=values.value+values.value_aux;
-                    break;
-                    case '-':
-                        result=values.value-values.value_aux;
-                    break;
-                    case '*':
-                        result=values.value*values.value_aux;
-                    break;
-                    case '/':
-                        result=values.value/values.value_aux;
-                    break;
-                }
 
+    const handleClicEqu = (e)=>{
+        e.preventDefault();
+        if(values.value !== ''){
+            const result_aux =
+                values.operator ===  '*' ? (values.value_aux * parseFloat(values.value)):
+                values.operator ===  '/' ? (values.value_aux / parseFloat(values.value)):
+                values.operator ===  '+' ? (values.value_aux + parseFloat(values.value)):
+                values.operator ===  '-' ? (values.value_aux - parseFloat(values.value)):0;
                 setValues({
-                    'result':result,
-                    'value' : values.value,     // número actual
-                    'value_aux' : values.value_aux,  // valor 1 de una operacion
-                    'operator' : values.operador,  // operador tecleado
-                    'number' : values.number  
+                    'result': result_aux,
+                    'value': values.value,
+                    'value_aux': result_aux,
+                    'operator':'',
+                    'number':1,    
                 });
-            }
-            }>=</button>
-            <button key ="btnequ" onClick={handleClicEqu}>CE</button>
-        </div>
+        };
+    }
+    return (
+        <>
+            <div class="fila2">
+            <button class="btnRojo" key ="btnCle" onClick={handleClicCle}>CE</button>
+            </div>
+            <div class="fila2">
+            <button class="btnAzul" key ="btnequ" onClick={handleClicEqu}>=</button>
+            </div>
+        </>
     );
-}
-
+};
 export default Buttequ;

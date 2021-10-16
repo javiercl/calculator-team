@@ -17,10 +17,10 @@ const handleClic = (e) => {
         };
         if(values.number){
             const result_aux =
-            values.operator ===  '* ' ? (values.value_aux * parseFloat(values.value)):
-            values.operator ===  '/ ' ? (values.value_aux / parseFloat(values.value)):
-            values.operator ===  ' + ' ? (values.value_aux + parseFloat(values.value)):
-            values.operator ===  ' - ' ? (values.value_aux - parseFloat(values.value)):0;
+            values.operator ===  '*' ? (values.value_aux * parseFloat(values.value)):
+            values.operator ===  '/' ? (values.value_aux / parseFloat(values.value)):
+            values.operator ===  '+' ? (values.value_aux + parseFloat(values.value)):
+            values.operator ===  '-' ? (values.value_aux - parseFloat(values.value)):0;
 
             setValues({
                 'result': result_aux,
@@ -34,12 +34,12 @@ const handleClic = (e) => {
 }
 
 return (
- <>
- <button key="btnmas" onClick={handleClic}>+</button>
- <button key="btnmen" onClick={handleClic}>-</button>
- <button key="btnmul" onClick={handleClic}>*</button>
- <button key="btndiv" onClick={handleClic}>/</button>
- </>
+ <div class="fila">
+ <button class="btnVerde" key="btnmas" onClick={handleClic}>+</button>
+ <button class="btnVerde" key="btnmen" onClick={handleClic}>-</button>
+ <button class="btnVerde" key="btnmul" onClick={handleClic}>*</button>
+ <button class="btnVerde" key="btndiv" onClick={handleClic}>/</button>
+ </div>
  )
 };
 

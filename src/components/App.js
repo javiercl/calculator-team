@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-// import Display from './components/Display';
-// import ButtNum from './components/ButtNum';
-// import ButtOpe from './components/ButtOpe';
-// import ButtEqu from './components/ButtEqu';
+ import Display from './Display';
+ import ButtNum from './ButtNum';
+ import ButtOpe from './ButtOpe';
+ import ButtEqu from './ButtEqu';
 
 
 function App() {
@@ -16,20 +16,12 @@ function App() {
   });
   
   return (
-    <div class="fondo">
-      
-      <p>Aqui van los comes de la calculadora</p>
-
-      <p> Otra rama nueva</p>
-      {/* 
-
+    <div class="calCuerpo">
       <Display values={values}/>
       <ButtNum values={values} setValues={setValues}/>
       <ButtEqu values={values} setValues={setValues}/>
-      <ButtOpe values={values} setValues={setValues}/> 
-      
-      */}
-
+      <ButtOpe values={values} setValues={setValues}/>
+       
     </div>
   );
 }

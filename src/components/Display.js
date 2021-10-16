@@ -1,11 +1,11 @@
-import react from 'react';
+import React from 'react';
 
   
-const Display = ({value}) => {
+const Display = ({values}) => {
     return (
-        <div>
+        <div class="display">
 
-        <span>{value.result}</span>
+            <span>{values.result}</span>
 
         </div>
     );
